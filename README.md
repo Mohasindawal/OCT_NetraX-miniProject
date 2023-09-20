@@ -42,7 +42,7 @@ If you have any questions, inquiries, or collaboration proposals, please don't h
 
 - Email: mosindawal12@gmail.com
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/mohasin-jawale-403931215)
-- GitHub: [GitHub Profile]((https://github.com/Mohasindawal))
+- GitHub: [GitHub Profile](https://github.com/Mohasindawal)
 
 We look forward to connecting with you!
 
