@@ -4,7 +4,7 @@ Welcome to the marketing site of "NetraX," our first startup project focused on 
 
 ## Demo
 
-You can visit the NetraX website live at [to view](#your-website-url).
+You can visit the NetraX website live at [to view](https://mohasindawal.github.io/OCT_NetraX-miniProject/).
 
 ## Project Overview
 
