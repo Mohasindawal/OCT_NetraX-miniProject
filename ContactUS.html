@@ -17,62 +17,63 @@
 </head>
 <body>
 
-<!--Nav-->
-<nav id="header" class="fixed w-full z-30 top-0 text-white ">
-  <div class="w-full container mx-auto flex flex-wrap items-center justify-between lg:mt-0 lg:mb-0">
-    <div class="pl-4 flex items-center">
-      <img src="./img/logo.png" class="w-[180px] lg:w-[200px]">
-    </div>
-    <div class="block lg:hidden pr-4">
-      <button id="nav-toggle"
-        class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-        <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <title>Menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-        </svg>
-      </button>
-    </div>
-    <div
-      class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
-      id="nav-content">
-      <ul class="list-reset lg:flex justify-end flex-1 items-center">
-        <li class="mr-3">
-          <a class="inline-block py-2 px-4 text-black  no-underline" href="index.html">Home</a>
-        </li>
-        <li class="mr-3">
-          <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-            href="Services.html">Services</a>
-        </li>
-        <li class="mr-3">
-          <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-            href="#">Treatment</a>
-        </li>
-        <li class="mr-3 ml-4 md:ml-3 mt-1 md:mt-0">
-          <div class="inline-block text-black ">
-              <div class="dropdown inline-block relative">
-                <button class=" text-black rounded inline-flex items-center">
-                  <span class="mr-1">Diagnostics</span>
-                  <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
-                </button>
-                <ul class="dropdown-menu absolute hidden top-[-15px] lg:top-10  pt-0 pl-[130px] lg:pl-[0]">
-                  <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Maestro2</a></li>
-                  <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Triton</a></li>
-                  <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">KR-1W</a></li>
-                </ul>
-              </div>
-            
-            </div>
-        </li>
 
-      </ul>
-      <button id="navAction"
-        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-        <a href="ContactUS.html">Contact us</a>
-      </button>
+  <!--Nav-->
+  <nav id="header" class="fixed w-full z-30 top-0 text-white ">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between m-[-20px] lg:mt-0 lg:mb-0">
+      <div class="pl-4 flex items-center">
+        <img src="./img/logo.png" class="w-[180px] lg:w-[200px]">
+      </div>
+      <div class="block lg:hidden pr-4">
+        <button id="nav-toggle"
+          class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        id="nav-content">
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <li class="mr-3">
+            <a class="inline-block py-2 px-4 text-black no-underline" href="index.html">Home</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="Services.html">Services</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="#">Treatment</a>
+          </li>
+          <li class="mr-3 ml-4 md:ml-3 mt-1 md:mt-0">
+            <div class="inline-block text-black ">
+                <div class="dropdown inline-block  relative">
+                  <button class=" text-black rounded inline-flex items-center">
+                    <span class="mr-1">Diagnostics</span>
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                  </button>
+                  <ul id="diagnosticsDropdown" class="dropdown-menu absolute hidden top-[-15px] lg:top-10  pt-0 pl-[130px] lg:pl-[0]">
+                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="Diagnostic1.html">Maestro2</a></li>
+                    <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Triton</a></li>
+                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">KR-1W</a></li>
+                  </ul>
+                </div>
+              
+              </div>
+          </li>
+
+        </ul>
+        <button id="navAction"
+          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <a href="ContactUS.html">Contact us</a>
+        </button>
+      </div>
     </div>
-  </div>
-  <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
-</nav>
+    <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+  </nav>
 
 
 
@@ -166,7 +167,6 @@
 
 
 
-
   <script>
     var scrollpos = window.scrollY;
     var header = document.getElementById("header");
@@ -247,6 +247,23 @@
       }
       return false;
     }
+
+    // Get the diagnostics dropdown element by ID
+    const diagnosticsDropdown = document.getElementById('diagnosticsDropdown');
+  
+    // Get the button that triggers the dropdown
+    const diagnosticsButton = document.querySelector('.dropdown button');
+  
+    // Add event listeners for mouseenter and mouseleave
+    diagnosticsButton.addEventListener('mouseenter', () => {
+      // Show the dropdown when the button is hovered
+      diagnosticsDropdown.classList.remove('hidden');
+    });
+  
+    diagnosticsDropdown.addEventListener('mouseleave', () => {
+      // Hide the dropdown when the mouse leaves the dropdown
+      diagnosticsDropdown.classList.add('hidden');
+    });
   </script>
 </body>
 </body>
