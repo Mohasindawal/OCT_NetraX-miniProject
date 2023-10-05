@@ -25,6 +25,7 @@ The NetraX marketing site currently offers the following features:
 - Informative landing page introducing NetraX and OCT technology.
 - Detailed information about our services and expertise in OCT.
 - Contact form for inquiries and collaboration opportunities.
+- Eye Disease Detection Model 
 
 ## Future Updates
 
