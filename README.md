@@ -41,7 +41,7 @@ Stay tuned for exciting developments!
 
 If you have any questions, inquiries, or collaboration proposals, please don't hesitate to reach out:
 
-- Email: [Mail Id](mosindawal12@gmail.com)
+- Email: [Mail Id](https://mosindawal12@gmail.com)
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/mohasin-jawale-403931215)
 - GitHub: [GitHub Profile](https://github.com/Mohasindawal)
 
