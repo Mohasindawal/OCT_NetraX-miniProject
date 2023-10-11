@@ -25,6 +25,8 @@ The NetraX marketing site currently offers the following features:
 - Informative landing page introducing NetraX and OCT technology.
 - Detailed information about our services and expertise in OCT.
 - Contact form for inquiries and collaboration opportunities.
+- Eye Disease Detection Model
+- Responsive Site
 
 ## Future Updates
 
@@ -43,6 +45,10 @@ If you have any questions, inquiries, or collaboration proposals, please don't h
 - Email: mosindawal12@gmail.com
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/mohasin-jawale-403931215)
 - GitHub: [GitHub Profile](https://github.com/Mohasindawal)
+
+## Note
+It is under construction.
+
 
 We look forward to connecting with you!
 
