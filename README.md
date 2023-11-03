@@ -8,7 +8,7 @@ You can visit the NetraX website live at [to view](https://mohasindawal.github.i
 
 ## Project Overview
 
-"NetraX" is our innovative startup dedicated to Optical Coherence Tomography (OCT). This marketing website serves as a platform to introduce our work, share information about OCT technology, and establish a strong online presence in the medical imaging industry.
+"NetraX" is our innovative startup dedicated to Optical Coherence Tomography (OCT). This marketing website serves as a platform to introduce our work, share information about OCT technology, and establish a strong online presence in the medical imaging industry. We have a clever detection model that goes to work after Spectra takes its pictures, and it's powered by smart technology. 
 
 ## Technologies Used
 
